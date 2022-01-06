@@ -18,7 +18,7 @@ export const NavigationBar = () => {
             name="book-reader" size={30} color={Colors.person}
           />
           <Icon 
-            name="arrow-circle-down" size={40} color={Colors.person}
+            name="arrow-circle-down" size={30} color={Colors.person}
           />
           <Icon 
             name="grin-stars" size={30} color={Colors.person}

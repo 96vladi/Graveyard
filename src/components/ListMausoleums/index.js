@@ -19,7 +19,6 @@ export const ListMausoleums = ({item}) => {
       <DetallContainer>
         <CustomText clr={Colors.white} fz="15px">
           {item.nombre}
-          {item.visitas}
         </CustomText>
         <CustomText clr={Colors.white} fz="15px">
           {item.visitas}

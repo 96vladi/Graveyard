@@ -35,3 +35,20 @@ export const Mausoleums = [
     img: '../../library/images/m1.jpg'
   },
 ];
+
+
+export const DetailsMausoleums = [
+  {
+    desciption: "Aqui va la descrption",
+    data: {
+      ubication:'ubicaion',
+      photografy: 'fotografias',
+      date: 'horario',
+      cost: 'costo entrada'
+    },
+    commit: {
+      name: 'usuario',
+      message: 'comentario'
+    }
+  },
+];

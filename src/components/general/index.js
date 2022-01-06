@@ -9,7 +9,6 @@ export const Layout = styled.View`
   justify-content: flex-start;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
 `;
 export const FlexContainer = styled.View`
   background-color: ${({bgc}) => bgc ?? 'transparent'}
