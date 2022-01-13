@@ -45,6 +45,7 @@ export const CustomText = styled.Text`
   font-weight: ${({fw}) => fw ?? 'normal'};
   margin-bottom: ${({mb}) => mb ?? '0px'};
   margin-top: ${({mt}) => mt ?? '0px'};
+  text-align: ${({aln}) => aln ?? 'left'};
 `;
 
 export const CustomInputStyle = styled.TextInput`
@@ -60,3 +61,4 @@ export const CustomInputStyle = styled.TextInput`
   color: white;
   fontWeight: bold;
 `;
+

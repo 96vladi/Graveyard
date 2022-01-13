@@ -1,3 +1,4 @@
+
 export const Mausoleums = [
   {
     nombre: 'Jose Manuel Pando',
@@ -50,5 +51,23 @@ export const DetailsMausoleums = [
       name: 'usuario',
       message: 'comentario'
     }
+  },
+];
+
+export const IconDetails = [
+  {
+    title: 'Ubication',
+    description: 'Cementeio general',
+    iconAssigned: 'location-arrow',
+  },
+  {
+    title: 'Schelude',
+    description: 'Cementeio general',
+    iconAssigned: 'calendar',
+  },
+  {
+    title: 'Cost',
+    description: 'Cementeio general',
+    iconAssigned: 'dollar',
   },
 ];
