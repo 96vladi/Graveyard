@@ -8,7 +8,7 @@ export const Layout = styled.View`
   justify-content: ${({jc}) => jc ?? 'flex-start'};
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: ${({pd}) => pd ?? '10px'};
 `;
 
 export const FlexContainer = styled.View`
@@ -29,21 +29,22 @@ export const CustomText = styled.Text`
 `;
 
 export const CustomImput = styled.TextInput`
+  color: white;
   background-color: ${({bg}) => bg ?? 'rgba(188, 188, 230, 0.2)'};
   height: ${({h}) => h ?? '100%'};
   width: ${({w}) => w ?? '100%'};
   padding: ${({pd}) => pd ?? '0px'};
-  border: ${({br}) => br ?? '1px'};
+  border: ${({br}) => br ?? '0px'};
+  border-radius: 8px;
 `;
 
 export const CustomButton = styled.TouchableOpacity`
-  background-color: ${({bg}) => bg ?? 'transparent'};
+  background-color: ${({bg}) => bg ?? 'rgba(188, 188, 230, 0.78)'};
   display:flex;
   justify-content: center;
   align-items: center;
   height: ${({h}) => h ?? '100%'};
   width: ${({w}) => w ?? '100%'};
   padding: ${({pd}) => pd ?? '0px'};
-  border-radius: 10px;
-  opacity: 0.8;
+  border-radius: 8px;
 `;

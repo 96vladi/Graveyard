@@ -14,8 +14,13 @@ const Ingress = () => {
 
       </FlexContainer>
       <FlexContainer h='20%'>
-        <CustomImput placeholder='Name' pd='5px' h='50px' w='350px'/>
-        <CustomButton bg={colors.button} h='50px' w='100px'>
+        <CustomImput 
+          placeholder='Name'
+          placeholderTextColor="rgb(170, 170, 170)" 
+          pd='15px' 
+          h='50px' 
+          w='350px'/>
+        <CustomButton h='50px' w='100px'>
           <CustomText>Enter</CustomText>
         </CustomButton>
       </FlexContainer>
